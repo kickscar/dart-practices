@@ -4,12 +4,12 @@ void main() {
   dynamic i;
   print('i: ${i}: ${i.runtimeType}');
 
-  dynamic k = 20;
-  print('k: ${k}: ${k.runtimeType}');
+  dynamic j = 20;
+  print('j: ${j}: ${j.runtimeType}');
 
-  k = null;
-  print('k: ${k}: ${k.runtimeType}');
+  j = 'hello world';
+  print('j: ${j}: ${j.runtimeType}');
 
-  k = 'hello world';
-  print('k: ${k}: ${k.runtimeType}');
+  j = null;
+  print('j: ${j}: ${j.runtimeType}');
 }
